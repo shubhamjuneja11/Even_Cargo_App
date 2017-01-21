@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/cancel"
+        android:title="Cancel" />
+    <item
+        android:id="@+id/messagedriver"
+        android:title="Instant Message to driver" />
+    <item
+        android:id="@+id/messageclient"
+        android:title="Instant message to client" />
+</menu>

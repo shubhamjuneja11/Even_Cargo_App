@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/delete"
+        android:title="Delete" />
+    <item
+        android:id="@+id/messageclient"
+        android:title="Instant message to Client" />
+    <item
+        android:id="@+id/messagemanger"
+        android:title="Instant message to Manager" />
+
+
+</menu>

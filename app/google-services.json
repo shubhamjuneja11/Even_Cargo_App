@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "753601531072",
+    "firebase_url": "https://even-cargo.firebaseio.com",
+    "project_id": "even-cargo",
+    "storage_bucket": "even-cargo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753601531072:android:22d76935dc8bf743",
+        "android_client_info": {
+          "package_name": "com.firebase.androidchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753601531072-42t3uqv8m7aqvu7tt6j0c2tj47qcrefh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNYpSwYdTJA6Chyse0RFmcAdsnv_pIu5o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753601531072:android:6f1f1cf94c0e8419",
+        "android_client_info": {
+          "package_name": "com.appbusters.robinpc.evencargo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753601531072-42t3uqv8m7aqvu7tt6j0c2tj47qcrefh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNYpSwYdTJA6Chyse0RFmcAdsnv_pIu5o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Even Cargo">
+        <menu>
+            <item
+                android:id="@+id/manager_panel"
+                android:icon="@drawable/one"
+                android:title="@string/title_activity_manager_panel" />
+            <item
+                android:id="@+id/driver_panel"
+                android:icon="@drawable/two"
+                android:title="@string/title_activity_driver_panel" />
+            <item
+                android:id="@+id/client_panel"
+                android:icon="@drawable/three"
+                android:title="@string/title_activity_client_panel" />
+            <item
+                android:id="@+id/invites"
+                android:icon="@drawable/four"
+                android:title="@string/title_activity_invites" />
+            <item
+                android:id="@+id/my_drivers"
+                android:icon="@drawable/five"
+                android:title="@string/title_activity_my_drivers" />
+            <item
+                android:id="@+id/my_clients"
+                android:icon="@drawable/seven"
+                android:title="@string/title_activity_my_clients" />
+            <item
+                android:id="@+id/my_managers"
+                android:icon="@drawable/seven"
+                android:title="@string/title_activity_my_managers" />
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/eight"
+                android:title="@string/title_activity_settings" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/eight"
+                android:title="Log out" />
+
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/status"
+        android:text="STATUS"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clientemailid"
+        android:id="@+id/clientemailid"
+        android:layout_below="@+id/status"
+        android:layout_alignLeft="@+id/status"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Orderno"
+        android:id="@+id/orderno"
+        android:layout_below="@+id/status"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="driveremailid"
+        android:id="@+id/driveremailid"
+        android:layout_below="@+id/clientemailid"
+        android:layout_alignLeft="@+id/clientemailid"
+        android:layout_alignStart="@+id/clientemailid"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/date"
+        android:layout_below="@+id/driveremailid"
+        android:layout_alignLeft="@+id/driveremailid"
+        android:layout_alignStart="@+id/driveremailid"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/time"
+        android:layout_alignBottom="@+id/date"
+        android:layout_toRightOf="@+id/date"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/client"
+        android:layout_toLeftOf="@+id/clientemailid"
+        android:layout_alignTop="@+id/clientemailid"
+        android:layout_marginRight="5dp"
+        android:id="@+id/imageView7" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/driver"
+        android:layout_toLeftOf="@+id/driveremailid"
+        android:layout_alignTop="@+id/driveremailid"
+        android:layout_marginRight="5dp"
+        android:id="@+id/imageView8" />
+
+</RelativeLayout>

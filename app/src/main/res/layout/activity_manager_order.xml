@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:fillViewport="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manager"
+            android:textColor="@color/black"
+            android:id="@+id/textView"
+            android:layout_marginLeft="43dp"
+            android:layout_marginStart="43dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:minWidth="100dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:text="Manager"
+            android:id="@+id/managername"
+            android:onClick="fun"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/textView"
+            android:layout_toRightOf="@+id/textView7"
+            android:layout_toEndOf="@+id/textView7" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@+id/managername"
+            android:layout_height="2dp"
+            android:layout_below="@+id/managername"
+            android:background="@color/orange"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Client"
+            android:textColor="@color/black"
+            android:id="@+id/textView3"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/managername"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Client"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:minWidth="100dp"
+            android:gravity="center"
+            android:onClick="fun"
+            android:id="@+id/clientname"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignLeft="@+id/managername"
+            android:layout_alignStart="@+id/managername" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@+id/clientname"
+            android:layout_height="2dp"
+            android:layout_below="@+id/clientname"
+            android:background="#ffa500"
+            android:id="@+id/view2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Driver"
+            android:textColor="@color/black"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/clientname"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Driver"
+            android:background="@color/blue"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:minWidth="100dp"
+            android:gravity="center"
+            android:onClick="fun"
+            android:id="@+id/drivername"
+            android:layout_below="@+id/textView5"
+            android:layout_toRightOf="@+id/textView7"
+            android:layout_toEndOf="@+id/textView7"
+            android:layout_marginTop="30dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@+id/drivername"
+            android:layout_height="2dp"
+            android:layout_below="@+id/drivername"
+            android:background="#ffa500"
+            android:id="@+id/view" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pickup time"
+            android:textColor="@color/black"
+            android:id="@+id/textView7"
+            android:layout_below="@+id/drivername"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pickup Location"
+            android:textColor="@color/black"
+            android:id="@+id/textView10"
+            android:layout_marginTop="30dp"
+            android:layout_alignLeft="@+id/textView7"
+            android:layout_alignStart="@+id/textView7"
+            android:layout_below="@+id/time" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pickup Address"
+            android:id="@+id/pickup"
+            android:padding="5dp"
+            android:singleLine="false"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:minWidth="100dp"
+            android:gravity="center"
+            android:onClick="fun"
+            android:layout_marginTop="31dp"
+            android:layout_below="@+id/textView10"
+            android:layout_alignLeft="@+id/date"
+            android:layout_alignStart="@+id/date" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@+id/pickup"
+            android:layout_height="2dp"
+            android:layout_below="@+id/pickuptext"
+            android:background="#ffa500"
+            android:id="@+id/line" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@+id/date"
+            android:layout_height="2dp"
+            android:layout_below="@+id/date"
+            android:background="#ffa500"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Map"
+            android:id="@+id/button2"
+            android:textColor="@color/white"
+            android:background="@drawable/buttonshape"
+            android:layout_marginTop="20dp"
+            android:onClick="fun"
+            android:layout_below="@+id/delivery"
+            android:layout_alignLeft="@+id/delivery" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery Location"
+            android:textColor="@color/black"
+            android:id="@+id/textView12"
+            android:layout_below="@+id/line"
+            android:layout_alignLeft="@id/textView10"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery Address"
+            android:id="@+id/delivery"
+            android:layout_alignLeft="@+id/pickup"
+            android:background="@color/blue"
+            android:padding="5dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:minWidth="100dp"
+            android:gravity="center"
+            android:onClick="fun"
+            android:layout_below="@+id/textView12" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@+id/packages"
+            android:layout_height="2dp"
+            android:layout_below="@+id/packages"
+            android:background="#ffa500"
+            android:id="@+id/line3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Map"
+            android:id="@+id/button1"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonshape"
+            android:onClick="fun"
+            android:layout_below="@+id/pickup"
+            android:layout_alignLeft="@+id/pickup"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Package"
+            android:textColor="@color/black"
+            android:id="@+id/textView14"
+            android:layout_below="@+id/deliverytext"
+            android:layout_alignLeft="@+id/textView12"
+            android:layout_alignStart="@+id/textView12"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/packages"
+            android:padding="5dp"
+            android:layout_below="@+id/textView14"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:minWidth="100dp"
+            android:gravity="center"
+            android:onClick="fun"
+            android:layout_alignLeft="@+id/button2"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@+id/packages"
+            android:layout_height="2dp"
+            android:layout_below="@+id/deliverytext"
+            android:background="#ffa500"
+            android:id="@+id/line2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:id="@+id/date"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:minWidth="100dp"
+            android:gravity="center"
+            android:onClick="fun"
+            android:layout_below="@id/textView7"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/textView7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:padding="5dp"
+            android:id="@+id/time"
+            android:background="@color/blue"
+            android:textColor="@color/white"
+            android:minWidth="100dp"
+            android:gravity="center"
+            android:onClick="fun"
+            android:layout_alignTop="@+id/date"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pickuptext"
+            android:layout_marginTop="15dp"
+            android:hint="Enter address details.(ie-proper address or landmark)"
+            android:textColor="@color/orange"
+            android:layout_below="@+id/button1"
+            android:layout_alignLeft="@+id/button1"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/deliverytext"
+            android:layout_marginTop="15dp"
+            android:hint="Enter address details.(ie-proper address or landmark)"
+            android:textColor="@color/orange"
+            android:layout_below="@+id/button2"
+            android:layout_alignLeft="@+id/button2"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView3"
+            android:onClick="clientmanual"
+            android:src="@drawable/write"
+            android:layout_above="@+id/view2"
+            android:layout_toRightOf="@+id/delivery"
+            android:layout_toEndOf="@+id/delivery" />
+
+
+    </RelativeLayout>
+</ScrollView>

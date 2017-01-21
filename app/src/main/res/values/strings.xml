@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Even Cargo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="text_splash">EvenCargo by Project Oye\u00a9 2016</string>
+    <string name="action_settings">About Us</string>
+    <string name="title_activity_driver_panel">Driver Panel</string>
+    <string name="title_activity_manager_panel">Manager Panel</string>
+    <string name="title_activity_client_panel">Client Panel</string>
+    <string name="title_activity_invites">Invites</string>
+    <string name="title_activity_my_drivers">My Drivers</string>
+    <string name="title_activity_my_clients">My Clients</string>
+    <string name="title_activity_my_managers">My Managers</string>
+    <string name="title_activity_settings">My Profile</string>
+   <string name="aboutus">Even Cargo was started with a vision to create a gender harmonious world, where everyone will have an equal opportunity to earn their livelihood irrespective of their gender.
+It is a social enterprise that employees women from marginalized communities and provide them with job opportunity as women delivery personnel. Our focus is to overcome the barriers of unemployment through skill development of women to increase the participation of women workforce in labour market.
+
+"Failure to allow women full access to the labour market is an under-utilization of human resources that holds back productivity and economic growth," - Kapsos.</string>
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+    <string name="developer"></string>
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Extras -->
+
+    <string name="admin_mail">support@evencargo.in</string>
+
+
+    <string name="title_activity_splash_screen">EvenCargo</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Log In</string>
+    <string name="action_sign_up">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register_now">Don\'t have an account? Sign Up</string>
+    <string name="action_login_now">Already have an account? Sign In</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_invalid_phone">Phone number should be 10 digit</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_register">Register</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_confirm_password">Password does not matches</string>
+    <string name="action_forgot_password">Forgot Password?</string>
+    <string name="title_activity_setup_account">Setup your account</string>
+    <string name="prompt_phone">Phone</string>
+    <string name="prompt_name">Name</string>
+    <string name="action_setup_short">Set Up</string>
+    <string name="action_setup">Proceed</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+
+    <string name="title_activity_relations">Relations</string>
+    <string name="hello_manager_fragment">Hello Manager fragment</string>
+
+    <string name="about_developed">developed by</string>
+    <string name="about_aby">Abhay Gawade</string>
+    <string name="about_shubham">Shubham Juneja</string>
+    <string name="about_compilers_india">COMPILERS INDIA</string>
+    <string name="about_oyeseva">EvenCargo by OyeSeva, Delhi</string>
+    <string name="about_ver">v 1.0</string>
+    <string name="title_activity_forgot_password">Forgot Password</string>
+    <string name="action_fpwd_up">Reset PAssword</string>
+    <string name="action_login_remind">Remember password? Log in now</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_change_password">Change Password</string>
+    <string name="title_activity_about">About</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="wifi_connected">Connected to WiFi</string>
+    <string name="lost_connection">Lost Network Connection</string>
+    <string name="auth_failed">Signin Failed</string>
+    <string name="save">save</string>
+</resources>
