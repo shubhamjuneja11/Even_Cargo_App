@@ -37,7 +37,7 @@
                 android:layout_height="190dp"
                 android:id="@+id/evencargoLogo_signIn"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/evencargologo"
+                android:src="@mipmap/ic_launcher"
                 android:layout_weight="5.22" />
 
             <android.support.design.widget.TextInputLayout

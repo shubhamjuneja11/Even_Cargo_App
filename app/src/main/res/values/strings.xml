@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Even Cargo</string>
+    <string name="app_name">OrgaNice</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="text_splash">EvenCargo by Project Oye\u00a9 2016</string>
+    <string name="text_splash">  </string>
     <string name="action_settings">About Us</string>
     <string name="title_activity_driver_panel">Driver Panel</string>
     <string name="title_activity_manager_panel">Manager Panel</string>
